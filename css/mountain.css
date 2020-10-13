@@ -5,8 +5,9 @@
 }
 
 body {
-    font-family: 'David Libre', cursive;
-    background-color: blue;
+    font-family: 'Caveat', cursive;
+    background-color: rgb(11, 101, 143);
+
 }
 
 .main-container {
@@ -21,7 +22,7 @@ body {
 .mountain {
     display: block;
     position: absolute;
-    width: 450px;
+    width: 500px;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -32,7 +33,7 @@ body {
     font-size: 2.5rem;
     position: absolute;
     bottom: 5%;
-    width: 100%;
+    width: 100%; 
 }
 
 .cloud1 {
@@ -40,33 +41,14 @@ body {
     top: 10%;
     left: 5%;
     animation-name: cloud1;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-}
-
-.cloud2 {
-    position: absolute;
-    top: 10%;
-    left: 5%;
-    animation-name: cloud1;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-}
-
-.cloud3 {
-    position: absolute;
-    top: 10%;
-    left: 5%;
-    animation-name: cloud1;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
 }
 
 @keyframes cloud1 {
     0% {left: 5%; top: 10%}
-    25% {left: 8%; top: 11%}
+    25% {left: 6%; top: 11%}
     50% {left: 5%; top: 9%}
-    75% {left: 4%; top: 8%}
+    75% {left: 5%; top: 8%;}
     100% {left: 5%; top: 10%}
 }
-
